@@ -5,15 +5,13 @@ This project involves analyzing Amazon Alexa product reviews to classify feedbac
 ## Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Preprocessing and EDA](#preprocessing-and-eda)
 - [Model Training](#model-training)
 - [Results](#results)
 - [Visualizations](#visualizations)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 The main objective of this project is to classify Amazon Alexa reviews as positive or negative based on the provided feedback using NLP techniques and machine learning models. The analysis includes:
@@ -35,11 +33,6 @@ The main objective of this project is to classify Amazon Alexa reviews as positi
 - `verified_reviews`: Review text.
 - `feedback`: 1 for positive feedback, 0 for negative feedback.
 
-## Project Structure
-├── amazon_alexa.tsv # Dataset ├── README.md # Project documentation ├── analysis.ipynb # Jupyter Notebook with complete analysis ├── countVectorizer.pkl # Saved CountVectorizer model ├── models/ # Directory to store trained models │ ├── random_forest.pkl │ ├── decision_tree.pkl │ └── xgboost.pkl ├── images/ # Directory for visualizations │ ├── ratings_bar_chart.png │ ├── feedback_pie_chart.png │ ├── wordcloud_positive.png │ └── wordcloud_negative.png ├── requirements.txt # Python dependencies └── src/ ├── preprocess.py # Script for data cleaning and preprocessing ├── train.py # Script for training models └── predict.py # Script for making predictions
-
-bash
-Copy code
 
 ## Installation
 Clone the repository:
